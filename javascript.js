@@ -1,7 +1,3 @@
-window.addEventListener("load", MaakZon());
-window.addEventListener("load", MaakGrond());
-window.addEventListener("resize", windowRisize());
-
 function MaakZon() {
   const c = document.getElementById("Canvas");
   const ctx = c.getContext("2d");
@@ -28,13 +24,17 @@ function MaakGrond() {
   c.width = window.innerWidth;
 
   ctx.fillStyle = "#00FF22";
-  ctx.fillRect(0, 320, 400, 110);
+  ctx.fillRect(0, 360, 1800, 100);
 
   ctx.fillStyle = "#00A516";
-  ctx.fillRect(0, 430, 400, 110);
+  ctx.fillRect(0, 440, 1800, 100);
 
   ctx.fillStyle = "#007D11";
-  ctx.fillRect(0, 540, 400, 110);
+  ctx.fillRect(0, 540, 1800, 200);
 }
 
-function windowRisize() {}
+function MaakAchtergrond() {
+  MaakZon();
+  MaakGrond();
+}
+MaakAchtergrond();

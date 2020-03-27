@@ -3,24 +3,93 @@
 body {
   padding: 0;
   margin: 0;
+
   background-color: rgb(14, 234, 255);
   font-family: "Roboto";
 }
 .Canvas {
-  border: 5px solid black;
   padding: 0;
   margin: 0;
   position: fixed;
+  top: 0;
 }
-header {
+.headerindex {
   text-align: right;
   padding: 1em;
-  background-color: rgba(0, 0, 255, 0.1);
+  background-color: rgb(14, 234, 255);
 }
-header a {
+.headerindex a {
   padding-top: 2em;
   padding-right: 1em;
+
   font-size: 1.3em;
   font-family: "Roboto";
   font-weight: bold;
+}
+.loginlink {
+  text-decoration: none;
+  color: black;
+}
+.loginlink:hover {
+  color: green;
+}
+.RobinAssistantLogo {
+  width: 280px;
+  z-index: 1;
+  position: relative;
+}
+.OmFoto {
+  padding-top: 11.6em;
+  align-items: center;
+  text-align: center;
+}
+.headerlogin {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.headerlogin h2 {
+  font-size: 50px;
+}
+.RobinAssistantLogologin {
+  width: 100%;
+}
+.login {
+  margin-top: 0;
+  z-index: 1;
+
+  position: relative;
+  text-align: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.login p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.inputlogin {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 2em;
+
+  border-radius: 3em;
+  height: 35px;
+}
+.loginbutton {
+  margin-top: 9em;
+  margin-bottom: 3em;
+  margin-left: 8em;
+  margin-right: 8em;
+
+  border-radius: 3em;
+  height: 40px;
+}
+.RegistrerenText {
+  color: white;
+}
+.RegistrerenTextRegistreren {
+  color: rgb(14, 234, 255);
 }
