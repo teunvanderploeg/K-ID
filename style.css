@@ -57,6 +57,10 @@ body {
   width: 1em;
   height: 1em;
   color: black;
+  text-decoration: none;
+}
+.backbutton:hover {
+  background-color: gray;
 }
 .headerlogin h2 {
   font-size: 50px;
@@ -94,6 +98,7 @@ body {
 
   border-radius: 3em;
   height: 35px;
+  border-color: white;
 }
 .loginbutton {
   font-weight: bold;
@@ -120,4 +125,17 @@ body {
 }
 .RegistrerenTextRegistreren {
   color: rgb(14, 234, 255);
+}
+.RegistrerenTextRegistreren:hover {
+  color: rgb(0, 209, 228);
+}
+.inputloginerror {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 2em;
+
+  border-radius: 3em;
+  height: 35px;
+  background-color: rgb(252, 26, 26);
+  border-color: rgb(143, 0, 0);
 }

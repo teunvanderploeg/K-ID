@@ -24,13 +24,13 @@ function MaakGrond() {
   c.width = window.innerWidth;
 
   ctx.fillStyle = "#00FF22";
-  ctx.fillRect(0, 360, 1800, 100);
+  ctx.fillRect(0, 360, 2000, 100);
 
   ctx.fillStyle = "#00A516";
-  ctx.fillRect(0, 440, 1800, 100);
+  ctx.fillRect(0, 440, 2000, 100);
 
   ctx.fillStyle = "#007D11";
-  ctx.fillRect(0, 540, 1800, 200);
+  ctx.fillRect(0, 540, 2000, 500);
 }
 
 function MaakAchtergrond() {
