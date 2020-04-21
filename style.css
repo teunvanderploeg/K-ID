@@ -58,6 +58,7 @@ body {
   height: 1em;
   color: black;
   text-decoration: none;
+  position: absolute;
 }
 .backbutton:hover {
   background-color: gray;
@@ -138,4 +139,106 @@ body {
   height: 35px;
   background-color: rgb(252, 26, 26);
   border-color: rgb(143, 0, 0);
+}
+.dayscluster {
+  background-color: white;
+  height: 80%;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+.weekscluster {
+  background-color: white;
+  height: 80%;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+.RobinAssistantLogoAgenda {
+  margin-top: 10%;
+  width: 100%;
+}
+.headerAgenda {
+  height: 126px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.buttonweek {
+  margin-top: 90%;
+  margin-right: 1em;
+  height: 40%;
+  border-radius: 15px 15px 0px 0px;
+  border-color: rgba(87, 255, 87, 0.5);
+  color: white;
+  background-color: rgb(70, 255, 70);
+}
+.buttondag {
+  margin-top: 70%;
+  margin-left: 1em;
+  height: 40%;
+  border-radius: 15px 15px 0px 0px;
+  border-color: rgb(87, 255, 87, 0.5);
+  color: white;
+  background-color: rgb(68, 255, 68);
+}
+.buttondag1 {
+  margin-top: 90%;
+  margin-left: 1em;
+  height: 40%;
+  border-radius: 15px 15px 0px 0px;
+  border-color: rgba(87, 255, 87, 0.5);
+  color: white;
+  background-color: rgb(70, 255, 70);
+}
+.buttonweek1 {
+  margin-top: 70%;
+  margin-right: 1em;
+  height: 40%;
+  border-radius: 15px 15px 0px 0px;
+  border-color: rgb(87, 255, 87, 0.5);
+  color: white;
+  background-color: rgb(68, 255, 68);
+}
+.eentaak {
+  height: 126px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 1em;
+  /* background-color: gray; */
+}
+.blouwetext {
+  grid-column: 5 span;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px black;
+  background-color: #0eeaff;
+  font-size: 0.8em;
+  margin: 0.5em;
+}
+.titeldag,
+.textdag {
+  padding-left: 10px;
+}
+.dagtaakblouwe {
+  background-color: #0eeaff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px black;
+  grid-column: 5 span;
+  font-size: 1em;
+  margin: 0.8em;
+  padding-left: 10px;
+}
+.dagtaken {
+  grid-column: 5 span;
+}
+.eenweektaak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 1em;
 }
