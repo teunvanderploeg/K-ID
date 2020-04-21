@@ -38,7 +38,9 @@ body {
 .RobinAssistantLogo {
   width: 280px;
   z-index: 1;
-  position: relative;
+  position: absolute;
+  bottom: 5.6em;
+  left: 3em;
 }
 .OmFoto {
   padding-top: 11.6em;
@@ -241,4 +243,31 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding-top: 1em;
+}
+.datumDag {
+  width: 5em;
+}
+.headerloginindex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.uitlogen {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+.agenda {
+  text-decoration: none;
+  color: black;
+}
+.agenda:hover,
+.uitlogen:hover {
+  color: green;
+}
+.NaamKlant {
+  text-align: center;
+  font-size: 3em;
 }
